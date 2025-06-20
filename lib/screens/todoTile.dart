@@ -16,11 +16,11 @@ class todoTile extends StatelessWidget {
       padding: const EdgeInsets.all(15.0),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.yellow,
+          color: Colors.white70,
           borderRadius: BorderRadius.circular(12)
         ),
         child: Padding(
-          padding: const EdgeInsets.all(22.0),
+          padding: const EdgeInsets.all(18.0),
           child: Row(
             children: [
               Checkbox(value: TaskCompleted, onChanged: onChange, activeColor: Colors.black,),
